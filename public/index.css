@@ -1,0 +1,23 @@
+*{
+    font-family: "Montserrat";
+    user-select: none;
+}
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#skill-box{
+    padding: 10px 200px;
+}
+#skill-name{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    #skill-box{
+        padding: 10px 10px;    
+    }
+  }
